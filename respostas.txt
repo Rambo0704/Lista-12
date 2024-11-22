@@ -1,0 +1,33 @@
+2)
+  a)A função free faz com que o espaço de memoria alocado por uma função malloc,calloc... seja liberado novamente.
+
+  b)Poder ele pode ser utilizado mas não é recomendado ,pois você já liberou a memoria ,sendo assim o sistema operacional pode ocupar com outra coisa ,podendo causar bugs ao         longo do programa.
+
+  c)O Vazamento de memoria ocorre quando a memoria alocada não é liberada com a função free, o que acaba ocupando uma memoria que não vai ser reutilizada ,tendo um esgotamento de memoria e vazamento.
+
+  d)Quando não ocorre a alocação, é retornado um ponteiro nulo(NULL) aonde ele não aponta para nada.
+
+  e)Calloc server para a alocação de vetores/matrizes na memoria dinamicamente, podendo armazenar varios espaços de memorias de um tipo.
+
+  f)No malloc alocamos um espaço de memoria de um tipo , enquanto no calloc pode alocar diversos espaços de memoria de um tipo ,sendo melhor para arrays.
+  
+3)
+  a)w-Escrever no arquivo.
+    r-Ler o arquivo.
+    a-Adicionar no arquivo.
+    wb-Escreve em binario no arquivo.
+    rb-Ler em binario o arquivo.
+    ab-Adiciona em binario no arquivo.
+
+  b)fgets-É um scanf para strings, aonde consigo coletar dados , conseguindo colocar aonde um limite de caracteres e pegar diretamente teclado.
+    fprintf-Printar dentro de um arquivo ,guardar uma informação contida numa variavel dentro do arquivo.
+    fread-Fazer a leitura de arquivos.
+    fwrite-fazer a escrita em arquivos.
+
+4) A saida será: erro/null pois o (float) deve ser em cada variavel e não na operaçao toda.
+
+5) 0.667/3/1/17/0.500/8.600/3/-7.500/4.
+
+6) 16
+
+8)Um vetor nao é nada mais que um ponteiro, em que ele aponta para cada componente do array,é um ponteiro que ao usar o [] consigo adicionar diversas variaveis dentro.
